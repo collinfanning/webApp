@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="" />
+    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloWorld.php" beforeDir="false" afterPath="$PROJECT_DIR$/helloWorld.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +32,32 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/StevesWorkbench" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -20,9 +67,11 @@
       </set>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1iCOWaqOggWW8gOe95xxnmCa4AF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,11 +111,52 @@
       <workItem from="1601408142326" duration="549000" />
       <workItem from="1601410464960" duration="3028000" />
       <workItem from="1601496179023" duration="1107000" />
+      <workItem from="1601504062861" duration="423000" />
+      <workItem from="1601580718393" duration="836000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated">
+      <created>1601504173124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601504173124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1601504281124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601504281124</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated">
+      <created>1601504441994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601504441994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="23" key="#CLI_Interpreters" timestamp="1601415947615">
@@ -77,26 +167,29 @@
     <state x="275" y="123" key="#CLI_Interpreters/0.23.1385.877@0.23.1385.877" timestamp="1601413503425" />
     <state x="275" y="123" key="#CLI_Interpreters/0.23.1387.877@0.23.1387.877" timestamp="1601412307932" />
     <state x="276" y="123" key="#CLI_Interpreters/0.23.1393.877@0.23.1393.877" timestamp="1601411229616" />
-    <state x="354" y="111" key="#PHP" timestamp="1601412763450">
-      <screen x="0" y="23" width="1385" height="877" />
+    <state x="353" y="111" key="#PHP" timestamp="1601580831202">
+      <screen x="0" y="23" width="1380" height="877" />
     </state>
     <state x="356" y="111" key="#PHP/0.23.1376.877@0.23.1376.877" timestamp="1601408290414" />
     <state x="356" y="111" key="#PHP/0.23.1379.877@0.23.1379.877" timestamp="1601408441069" />
+    <state x="353" y="111" key="#PHP/0.23.1380.877@0.23.1380.877" timestamp="1601580831202" />
     <state x="354" y="111" key="#PHP/0.23.1385.877@0.23.1385.877" timestamp="1601412763450" />
     <state x="356" y="111" key="#PHP/0.23.1393.877@0.23.1393.877" timestamp="1601411230997" />
-    <state x="507" y="392" key="NewPhpFileDialog" timestamp="1601408181395">
-      <screen x="0" y="23" width="1376" height="877" />
+    <state x="510" y="392" key="NewPhpFileDialog" timestamp="1601504096045">
+      <screen x="0" y="23" width="1383" height="877" />
     </state>
     <state x="507" y="392" key="NewPhpFileDialog/0.23.1376.877@0.23.1376.877" timestamp="1601408181395" />
+    <state x="510" y="392" key="NewPhpFileDialog/0.23.1383.877@0.23.1383.877" timestamp="1601504096045" />
     <state x="190" y="100" key="SettingsEditor" timestamp="1601415950505">
       <screen x="0" y="23" width="1376" height="877" />
     </state>
     <state x="190" y="100" key="SettingsEditor/0.23.1376.877@0.23.1376.877" timestamp="1601415950505" />
     <state x="191" y="100" key="SettingsEditor/0.23.1385.877@0.23.1385.877" timestamp="1601413504908" />
-    <state x="500" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601497634653">
-      <screen x="0" y="23" width="1376" height="877" />
+    <state x="503" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601504471971">
+      <screen x="0" y="23" width="1383" height="877" />
     </state>
     <state x="500" y="201" key="Vcs.Push.Dialog.v2/0.23.1376.877@0.23.1376.877" timestamp="1601497634653" />
+    <state x="503" y="201" key="Vcs.Push.Dialog.v2/0.23.1383.877@0.23.1383.877" timestamp="1601504471971" />
     <state x="698" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601497270894">
       <screen x="0" y="23" width="1376" height="877" />
     </state>

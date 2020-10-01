@@ -15,6 +15,8 @@
     echo '<p>Thanks for your service Mike </p>';
 echo '<p>No thank YOU collin ;)</p>';
 echo '<p>Heyyyyyy :() </p>';
+echo 'this is my php info';
+echo phpinfo();
     ?>
 
 <?= "I'm Short echo tag"; ?>
