@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="updated" />
+    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +112,7 @@
       <workItem from="1601496179023" duration="1107000" />
       <workItem from="1601504062861" duration="423000" />
       <workItem from="1601580718393" duration="836000" />
+      <workItem from="1601916613674" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1601504173124</created>
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601504441994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated">
+      <created>1601913516787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601913516787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,14 +182,18 @@
     <state x="353" y="111" key="#PHP/0.23.1380.877@0.23.1380.877" timestamp="1601580831202" />
     <state x="354" y="111" key="#PHP/0.23.1385.877@0.23.1385.877" timestamp="1601412763450" />
     <state x="356" y="111" key="#PHP/0.23.1393.877@0.23.1393.877" timestamp="1601411230997" />
-    <state x="862" y="251" key="CommitChangelistDialog2" timestamp="1601913488399">
+    <state x="862" y="251" key="CommitChangelistDialog2" timestamp="1601913515895">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="862" y="251" key="CommitChangelistDialog2/0.0.2560.1400/-1080.-578.1080.2520@0.0.2560.1400" timestamp="1601913488399" />
-    <state x="944" y="589" key="NewPhpFileDialog" timestamp="1601913473110">
+    <state x="862" y="251" key="CommitChangelistDialog2/0.0.2560.1400/-1080.-578.1080.2520@0.0.2560.1400" timestamp="1601913515895" />
+    <state x="-746" y="405" key="NewPhpClassDialog" timestamp="1601917449521">
+      <screen x="-1080" y="-578" width="1080" height="2520" />
+    </state>
+    <state x="-746" y="405" key="NewPhpClassDialog/0.0.2560.1400/-1080.-578.1080.2520@-1080.-578.1080.2520" timestamp="1601917449521" />
+    <state x="944" y="589" key="NewPhpFileDialog" timestamp="1601916997399">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="944" y="589" key="NewPhpFileDialog/0.0.2560.1400/-1080.-578.1080.2520@0.0.2560.1400" timestamp="1601913473110" />
+    <state x="944" y="589" key="NewPhpFileDialog/0.0.2560.1400/-1080.-578.1080.2520@0.0.2560.1400" timestamp="1601916997399" />
     <state x="507" y="392" key="NewPhpFileDialog/0.23.1376.877@0.23.1376.877" timestamp="1601408181395" />
     <state x="510" y="392" key="NewPhpFileDialog/0.23.1383.877@0.23.1383.877" timestamp="1601504096045" />
     <state x="190" y="100" key="SettingsEditor" timestamp="1601415950505">
@@ -187,9 +201,10 @@
     </state>
     <state x="190" y="100" key="SettingsEditor/0.23.1376.877@0.23.1376.877" timestamp="1601415950505" />
     <state x="191" y="100" key="SettingsEditor/0.23.1385.877@0.23.1385.877" timestamp="1601413504908" />
-    <state x="503" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601504471971">
-      <screen x="0" y="23" width="1383" height="877" />
+    <state x="931" y="284" key="Vcs.Push.Dialog.v2" timestamp="1601916624018">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="931" y="284" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-578.1080.2520@0.0.2560.1400" timestamp="1601916624018" />
     <state x="500" y="201" key="Vcs.Push.Dialog.v2/0.23.1376.877@0.23.1376.877" timestamp="1601497634653" />
     <state x="503" y="201" key="Vcs.Push.Dialog.v2/0.23.1383.877@0.23.1383.877" timestamp="1601504471971" />
     <state x="698" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601497270894">
@@ -204,5 +219,9 @@
       <screen x="0" y="23" width="1376" height="877" />
     </state>
     <state x="722" y="362" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1376.877@0.23.1376.877" timestamp="1601496971010" />
+    <state x="-877" y="17" width="672" height="678" key="search.everywhere.popup" timestamp="1601917333081">
+      <screen x="-1080" y="-578" width="1080" height="2520" />
+    </state>
+    <state x="-877" y="17" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.-578.1080.2520@-1080.-578.1080.2520" timestamp="1601917333081" />
   </component>
 </project>
