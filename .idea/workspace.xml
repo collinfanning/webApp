@@ -90,6 +90,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -126,7 +127,9 @@
       <workItem from="1601504062861" duration="423000" />
       <workItem from="1601580718393" duration="2058000" />
       <workItem from="1601932930317" duration="9000" />
-      <workItem from="1601936796496" duration="1951000" />
+      <workItem from="1601936796496" duration="2063000" />
+      <workItem from="1601998229630" duration="1655000" />
+      <workItem from="1602012631538" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1601504173124</created>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601996763163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated">
+      <created>1601997816743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997816743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,26 +225,32 @@
     <state x="353" y="111" key="#PHP/0.23.1380.877@0.23.1380.877" timestamp="1601580831202" />
     <state x="354" y="111" key="#PHP/0.23.1385.877@0.23.1385.877" timestamp="1601412763450" />
     <state x="356" y="111" key="#PHP/0.23.1393.877@0.23.1393.877" timestamp="1601411230997" />
+    <state x="567" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602002094755">
+      <screen x="0" y="23" width="1863" height="1057" />
+    </state>
+    <state x="567" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1863.1057@0.23.1863.1057" timestamp="1602002094755" />
     <state x="137" y="100" key="MergeDialog" timestamp="1601936892350">
       <screen x="0" y="23" width="1380" height="877" />
     </state>
     <state x="137" y="100" key="MergeDialog/0.23.1380.877@0.23.1380.877" timestamp="1601936892350" />
-    <state x="510" y="392" key="NewPhpFileDialog" timestamp="1601504096045">
-      <screen x="0" y="23" width="1383" height="877" />
+    <state x="511" y="392" key="NewPhpFileDialog" timestamp="1601998366912">
+      <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="507" y="392" key="NewPhpFileDialog/0.23.1376.877@0.23.1376.877" timestamp="1601408181395" />
     <state x="510" y="392" key="NewPhpFileDialog/0.23.1383.877@0.23.1383.877" timestamp="1601504096045" />
-    <state x="190" y="100" key="SettingsEditor" timestamp="1601415950505">
-      <screen x="0" y="23" width="1376" height="877" />
+    <state x="511" y="392" key="NewPhpFileDialog/0.23.1386.877@0.23.1386.877" timestamp="1601998366912" />
+    <state x="191" y="100" key="SettingsEditor" timestamp="1601998553355">
+      <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="190" y="100" key="SettingsEditor/0.23.1376.877@0.23.1376.877" timestamp="1601415950505" />
     <state x="191" y="100" key="SettingsEditor/0.23.1385.877@0.23.1385.877" timestamp="1601413504908" />
-    <state x="504" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601996768498">
+    <state x="191" y="100" key="SettingsEditor/0.23.1386.877@0.23.1386.877" timestamp="1601998553355" />
+    <state x="504" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601997827449">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="500" y="201" key="Vcs.Push.Dialog.v2/0.23.1376.877@0.23.1376.877" timestamp="1601497634653" />
     <state x="503" y="201" key="Vcs.Push.Dialog.v2/0.23.1383.877@0.23.1383.877" timestamp="1601581689155" />
-    <state x="504" y="201" key="Vcs.Push.Dialog.v2/0.23.1386.877@0.23.1386.877" timestamp="1601996768498" />
+    <state x="504" y="201" key="Vcs.Push.Dialog.v2/0.23.1386.877@0.23.1386.877" timestamp="1601997827449" />
     <state x="700" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601936882734">
       <screen x="0" y="23" width="1380" height="877" />
     </state>

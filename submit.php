@@ -15,11 +15,12 @@ if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
 }
 
-echo "Connected successfully.";
+echo "Connected successfully. ";
 $sql = "INSERT INTO user (fname, lname) VALUES ('$x', '$y');";
 
 if ($conn->query($sql) === TRUE) {
-	echo "New record created successfully. ";
+	echo $x . " " . $y . " has been added to " . $dbname;
+
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 }
