@@ -1,6 +1,7 @@
 <?php
 $x=$_POST['firstname'];
 $y=$_POST['lastname'];
+$z=$_POST['bannerid'];
 
 $servername = "localhost";
 $username = "root";
@@ -16,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 echo "Connected successfully. ";
-$sql = "INSERT INTO user (fname, lname) VALUES ('$x', '$y');";
+$sql = "INSERT INTO user (fname, lname, bannerid) VALUES ('$x', '$y', '$z');";
 
 if ($conn->query($sql) === TRUE) {
 	echo $x . " " . $y . " has been added to " . $dbname;
