@@ -1,8 +1,6 @@
 <?php
 $x=$_POST['firstname'];
 $y=$_POST['lastname'];
-//$y = 'steve';
-//$x = 'polvino';
 
 $servername = "localhost";
 $username = "root";
@@ -17,11 +15,11 @@ if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
 }
 
-echo "Connected successfully";
+echo "Connected successfully.";
 $sql = "INSERT INTO user (fname, lname) VALUES ('$x', '$y');";
 
 if ($conn->query($sql) === TRUE) {
-	echo "New record created successfully";
+	echo "New record created successfully. ";
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 }

@@ -2,6 +2,8 @@
 <html>
 <body>
 
+<h1>Register a user</h1>
+
 <form action="submit.php" method="post">
 	First name:<br>
 	<input type="text" name="firstname">
