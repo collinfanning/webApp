@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { getAllRequiredInputs, postData } from "../functions/functions";
 const EmployeeLogin = (props) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -10,6 +10,9 @@ const EmployeeLogin = (props) => {
    */
   const submitForm = (e) => {
     e.preventDefault();
+    const requiredInputs = getAllRequiredInputs(e);
+    for (const input of requiredInputs) input.reportValidity();
+    postData("../")
     console.dir(e.target.querySelectorAll("input"));
     //fetch()
   };
