@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { getAllRequiredInputs, postData } from "../functions/functions";
 const EmployeeLogin = (props) => {
   const [username, setUsername] = useState("");
@@ -10,11 +11,29 @@ const EmployeeLogin = (props) => {
    */
   const submitForm = (e) => {
     e.preventDefault();
-    const requiredInputs = getAllRequiredInputs(e);
-    for (const input of requiredInputs) input.reportValidity();
-    postData("../")
     console.dir(e.target.querySelectorAll("input"));
-    //fetch()
+    const requiredInputs = getAllRequiredInputs(e);
+    let obj = {};
+    for (const input of requiredInputs) {
+      input.reportValidity();
+      obj = { ...obj, [input.name]: input.value };
+    }
+    console.dir(obj);
+    axios({
+      method: "post", //you can set what request you want to be
+      url: "http://localhost/phpFunctions/empLogin.php",
+      data: obj ,
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true,
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      mode: "no-cors",
+    })
+      .then((res) => console.log(res.data))
+      .catch((error) => console.log(error));
+    //console.dir(response);
   };
   return (
     <>

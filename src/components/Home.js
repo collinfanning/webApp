@@ -11,7 +11,7 @@ const Home = (props) => {
       <hr className="my-4" />
       <p> Click the button below to learn more about our store </p>
       <p className="lead">
-        <a className="btn btn-primary btn-lg" href="#" role="button">
+        <a className="btn btn-primary btn-lg" href="/" role="button">
           Learn more
         </a>
       </p>
