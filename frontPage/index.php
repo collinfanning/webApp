@@ -36,10 +36,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="employeeLogin.php">Nanno's Representative Login <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../logins/employeeLogin.php">Nanno's Representative Login <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="vendorLogin.php">Vendor Login</a>
+                <a class="nav-link" href="../logins/vendorLogin.php">Vendor Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="aboutUs.php">About Us</a>

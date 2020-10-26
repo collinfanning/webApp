@@ -13,7 +13,7 @@
     <title>Employee Menu</title>
     <style>
 body {
-    background-image: url('landing.jpg');
+    background-image: url('frontPage/landing.jpg');
 }
 body:before {
     content: "";
@@ -30,7 +30,7 @@ body:before {
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.php">Nanno's Foods</a>
+    <a class="navbar-brand" href="frontPage/index.php">Nanno's Foods</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

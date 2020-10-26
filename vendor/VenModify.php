@@ -8,7 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
         body {
-            background-image: url('landing.jpg');
+            background-image: url('../frontPage/landing.jpg');
         }
         body:before {
             content: "";
@@ -30,7 +30,7 @@ $vID = (int)$_POST['VenID'];
 $VName = trim($_POST['VenName']);
 $Error = "No Matching Vendors";
 
-$link = mysqli_connect("localhost", "root", "KcS=MipppS4L", "nannos_foods");
+$link = mysqli_connect("localhost", "root", "", "nannos_foods");
 
 $query = "SELECT * FROM vendor where VendorID='$vID'";
 

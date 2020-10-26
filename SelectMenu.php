@@ -15,7 +15,7 @@
 
     <style>
         body {
-            background-image: url('landing.jpg');
+            background-image: url('frontPage/landing.jpg');
     </style>
 
 
@@ -24,7 +24,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <a class="navbar-brand" href="index.php">Nanno's Foods</a>
+    <a class="navbar-brand" href="frontPage/index.php">Nanno's Foods</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
             </li>
             <li class="nav-item">
 
-                <a class="nav-link" href="vendorLogin.php">Vendor Login</a>
+                <a class="nav-link" href="logins/vendorLogin.php">Vendor Login</a>
 
             </li>
             <li class="nav-item">
@@ -55,9 +55,9 @@
         Manage Vendor
     </button>
     <div class="dropdown-menu">
-        <a class="dropdown-item"  href="registerVendor.php">Register New</a>
-        <a class="dropdown-item" href="VendorModify.php"  >Modify Existing</a>
-        <a class="dropdown-item" href="deleteVendor.php" >Remove Existing</a>
+        <a class="dropdown-item"  href="vendor/registerVendor.php">Register New</a>
+        <a class="dropdown-item" href="vendor/VendorModify.php"  >Modify Existing</a>
+        <a class="dropdown-item" href="vendor/deleteVendor.php" >Remove Existing</a>
     </div>
 
     <div class="btn-group">
@@ -65,18 +65,18 @@
             Manage Store
         </button>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="AddNewStore.php" >Add New Store</a>
-            <a class="dropdown-item"  href="modifyStore.php">Modify Existing</a>
-            <a class="dropdown-item"  href="deleteVendor.php">Remove Store</a>
+            <a class="dropdown-item" href="stores/AddNewStore.php" >Add New Store</a>
+            <a class="dropdown-item"  href="stores/modifyStore.php">Modify Existing</a>
+            <a class="dropdown-item"  href="vendor/deleteVendor.php">Remove Store</a>
         </div>
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Manage Inventory
             </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="InventoryAdd.php" >Add New Item</a>
-                <a class="dropdown-item" href="InventoryModify.php" >Modify Existing</a>
-                <a class="dropdown-item" href="InventoryDelete.php" >Remove Existing</a>
+                <a class="dropdown-item" href="inventory/InventoryAdd.php" >Add New Item</a>
+                <a class="dropdown-item" href="inventory/InventoryModify.php" >Modify Existing</a>
+                <a class="dropdown-item" href="inventory/InventoryDelete.php" >Remove Existing</a>
                 <a class="dropdown-item" href="processDelivery.php" >Process Delivery</a>
                 <a class="dropdown-item" href="processReturn.php" >Process Return</a>
             </div>
@@ -85,9 +85,9 @@
                     Manage Customer
                 </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="CustomerAdd.php" >Add New Member</a>
-                    <a class="dropdown-item" href="CustomerModify.php" >Modify Member</a>
-                    <a class="dropdown-item" href="CustomerDelete.php" >Remove Member</a>
+                    <a class="dropdown-item" href="customer/CustomerAdd.php" >Add New Member</a>
+                    <a class="dropdown-item" href="customer/CustomerModify.php" >Modify Member</a>
+                    <a class="dropdown-item" href="customer/CustomerDelete.php" >Remove Member</a>
                     <a class="dropdown-item" href="CustomerNewPurchase.php" >New Purchase</a>
                 </div>
                 <div class="btn-group">
@@ -104,8 +104,8 @@
                             Look Up
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="LookUpAllinv.php" >All Inventory Items</a>
-                            <a class="dropdown-item" href="LookupLowInv.php" >All Low Items </a>
+                            <a class="dropdown-item" href="inventory/LookUpAllinv.php" >All Inventory Items</a>
+                            <a class="dropdown-item" href="inventory/LookupLowInv.php" >All Low Items </a>
                             <a class="dropdown-item" href="LookUpReturns.php" >All Returns </a>
                             <a class="dropdown-item" href="LookUpCustPurchase.php" >Completed Customer Purchase </a>
                             <a class="dropdown-item" href="LookUpOrders.php" >Paced Orders</a>

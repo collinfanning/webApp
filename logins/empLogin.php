@@ -1,12 +1,12 @@
 <?php
 session_start();
-require 'database.php';
+//require 'database.php';
 $username = trim($_POST['uname']);
 $password = trim($_POST['psw']);
 $Error = "Incorrect username or password.";
 
 
-$link = mysqli_connect("localhost", "root", "KcS=MipppS4L", "nannos_foods");
+$link = mysqli_connect("localhost", "root", "", "nannos_foods");
 
 $query = "SELECT * FROM login";
 
@@ -18,7 +18,7 @@ if ($rows > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
         if ($username == $row["Username"] && $password == $row["Password"]) {
 
-            header("Location: SelectMenu.php");
+            header("Location: ../SelectMenu.php");
 
         } else {
             $count = $count + 1;
