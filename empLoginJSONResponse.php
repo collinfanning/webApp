@@ -3,7 +3,8 @@ session_start();
 require 'database.php';
 // Takes raw data from the request
 $json = file_get_contents('php://input');
-
+//adding a comment just to say i have my own branch for now
+//adding more comments
 // Converts it into a PHP object
 $data = json_decode($json);
 //echo $json;

@@ -97,7 +97,7 @@ export function EmployeeLogin() {
         if (obj.login == "success") {
           window.location.assign("../employeeMenu/");
         } else {
-          //Reset all input element's values.
+          //Reset all input element's values. why wont my comments stay
           e.target.reset();
           alert("Login Failed. Try a different username or password.");
         }
