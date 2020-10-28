@@ -19,10 +19,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="Fix to labels">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employeeLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/employeeLogin.html" afterDir="false" />
+    <list default="true" id="2d558725-a426-4780-9a70-70ccdeea21b5" name="Default Changelist" comment="Register vendor (inserts two??)">
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/empLoginJSONResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeLogin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeMenu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healthy-food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Jumbotron.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/employeeLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/registerVendorMike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/representativeNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerVendor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerVendorJSONResponseMike.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/empLogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeeLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloWorld.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +209,8 @@
     <MESSAGE value="In progress of creating a login feature using php. Pushing for the case that Dr. Ajay would like to see progress in class." />
     <MESSAGE value="Mike Test Commit" />
     <MESSAGE value="Fix to labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix to labels" />
+    <MESSAGE value="Register vendor (inserts two??)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register vendor (inserts two??)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="23" key="#CLI_Interpreters" timestamp="1601415947615">
@@ -230,10 +268,10 @@
     </state>
     <state x="190" y="100" key="SettingsEditor/0.23.1376.877@0.23.1376.877" timestamp="1601415950505" />
     <state x="191" y="100" key="SettingsEditor/0.23.1385.877@0.23.1385.877" timestamp="1601413504908" />
-    <state x="558" y="167" key="Vcs.Push.Dialog.v2" timestamp="1601863956782">
+    <state x="558" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603846793581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="558" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601863956782" />
+    <state x="558" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603846793581" />
     <state x="500" y="201" key="Vcs.Push.Dialog.v2/0.23.1376.877@0.23.1376.877" timestamp="1601497888284" />
     <state x="503" y="201" key="Vcs.Push.Dialog.v2/0.23.1385.877@0.23.1385.877" timestamp="1601580181001" />
     <state x="780" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601863933711">
